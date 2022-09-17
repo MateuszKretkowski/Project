@@ -1,51 +1,160 @@
 *
 {
     font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-@media screen 
+.feslogo
+{
+    width: 100%;
+    max-width: 30%;
+    margin-right: 50%;
+}
+.navigationbar
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c9fdff;
+    padding: .1%;
+    align-items: center;
+    padding: 0 16;
+}
+.links
+{
+    margin-left: 2%;
+    color: rgb(70, 70, 70);
+    font-size: 24px;
+    font-weight: 800;
+}
+.laptopimg
+{
+    width: 100%;
+    max-width: 100%;
+}
+header
+{
+    background-color: #eadcff;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1
+{
+    font-size: 72px;
+}
+.subheader
+{
+    font-size: 32px;
+}
+button
+{
+    background-color: #05c7cf;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.row
+{
+    width: 100%;
+    max-width: 1300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#about
+{
+    padding: 48px 0;
+    background-color: #f8ffdc;
+}
+h2
+{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.sectiondescription
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgwrapper
+{
+    width: 40%;
+    padding: 0 24px;
+}
+.aboutimg
+{
+    width: 100%;
+}
+.sectiondesctiptionwrapper
+{
+    width: 60%;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+}
+.sectiondescriptionpara
+{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+
+
+#discord
+{
+    background-color: #cefeff;
+}
+.links
 {
 
 }
-.firstsection
+@media (max-width: 728px)
 {
-    margin-top: 1%;
-    display: flex;
-    justify-content: center;
-}
-.container
-{
-    background-color: lightgray;
-    width: 100%;
-    max-width: 600px;
-    height: 500px;
-    border: 6px solid gray;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.bigbox
-{
-    width: 45%;
-    height: 90%;
-    border: 4px solid gray;
-}
-.box
-{
-    width: 40px;
-    height: 40px;
-    border: 4px solid gray;
-}
-.smallbox
-{
-    width: 30px;
-    height: 30px;
-    padding: 2%;
-    border: 3px solid gray;
-}
-.wrapper
-{
-    
+    .row
+    {
+        flex-direction: column;
+    } 
+    .home
+    {
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .startbutton
+    {
+        max-width: 240px;
+    }
+    h1
+    {
+        text-align: center;
+        font-size: 16px;
+
+    }
+    .subheader
+    {
+        text-align: center;
+        font-size: 28px;
+    }
+    .links
+    {
+        display: none;
+    }
+    .navigationbar
+    {
+        padding: 5% 5%;
+    }
+    .feslogo
+    {
+        max-width: 60%;
+        display: flex;
+        margin: 0;
+    }
 }
